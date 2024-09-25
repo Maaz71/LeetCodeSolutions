@@ -1,0 +1,29 @@
+class Solution {
+    public boolean isPalindrome(int x) {
+
+        if(x<0)  //value of x should be bigger than 0
+        {
+            return false; // if not return false
+        }
+        String num = x+"";  //converting to a string to perform reverasl
+        return checkPalindrome(num); //calling checkPalindrome method and passing newly converted string
+        
+    }
+
+    private static boolean checkPalindrome(String nums)
+    {
+        int left=0;  
+        int right= nums.length()-1;
+        while(left<right)  // left should be less than right
+        {
+            if(nums.charAt(left)!=nums.charAt(right)) //if value of left and from right doesn't match
+            {
+                return false;  // return false
+            }
+
+            left++; //increment left
+            right--; // decrement right
+        }
+        return true;
+    }
+}
