@@ -1,0 +1,26 @@
+1.step- Initialize the repo:
+
+$ git init
+
+2.step- check for Files that are not updated
+
+$ git status
+
+3.step- Add the file which you want to add in the GitHub repo
+
+$ git add Instructions.txt
+
+4.step - Check for files are ready to be committed and available in staging area
+
+$ git status
+
+5.step- commit changes to the GitHub repo from local
+
+$ git commit -m "Instructions for Pushing from local Repo" // with any message
+
+6.step- Push those changes to the GitHub repo
+
+$ git push
+
+
+
