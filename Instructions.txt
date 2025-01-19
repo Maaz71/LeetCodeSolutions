@@ -6,7 +6,7 @@ $ git init
 
 $ git status
 
-3.step- Add the file which you want to add in the GitHub repo
+3.step- Add the file in staging area which you want to push in the GitHub repo
 
 $ git add Instructions.txt
 
